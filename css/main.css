@@ -12,6 +12,10 @@ html {
   box-sizing: inherit;
 }
 
+svg {
+  fill: white;
+}
+
 @media only screen and (min-width: 25em) {
 
 
