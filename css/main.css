@@ -6,6 +6,8 @@ html {
   text-size-adjust: 100%;
   font: sans-serif;
   line-height: 1.5;
+  font-family: "Abril Fatface", cursive;
+  font-family: Montserrat, sans-serif;
 }
 
 *, *::before, *::after {
@@ -14,6 +16,21 @@ html {
 
 footer svg {
   fill: black;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+ul {
+  list-style-type: none;
+  white-space: nowrap;
+  display: flex;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 25em) {
