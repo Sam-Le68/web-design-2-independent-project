@@ -66,6 +66,10 @@ header {
   height: 3em;
 }
 
+footer svg {
+  fill: black;
+}
+
 .current {
   border-bottom: 3px solid black;
 }
@@ -125,7 +129,6 @@ a {
 .skip-links button:focus {
   outline-offset: 3px;
   top: 0;
-}
 
 @media only screen and (min-width: 38em) {
 

@@ -54,14 +54,18 @@ h1 {
   }
 
   .gladstone {
-    width: 15em;
+    width: 20em;
     margin-right: 1em;
   }
 
   .gladstone img {
     height: 23em;
-    width: 15em;
+    width: 100%;
     object-fit: cover;
+  }
+
+  .etu {
+    width: 84%;
   }
 
   .etu img {
@@ -70,7 +74,7 @@ h1 {
   }
 
   .camp {
-    width: 17em;
+    width: 20em;
   }
 
   .camp img {
@@ -86,6 +90,7 @@ h1 {
 
   .coffee {
     margin-right: 1em;
+    width: 100%;
   }
 
 
