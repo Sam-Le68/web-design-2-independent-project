@@ -48,7 +48,7 @@ footer .copyright {
 footer .social-badges {
   display: block;
   align-items: right;
-  width: 8%;
+  width: 20%;
   margin-left: auto;
 }
 
@@ -111,7 +111,7 @@ a {
 
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
@@ -120,7 +120,7 @@ a {
 
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;

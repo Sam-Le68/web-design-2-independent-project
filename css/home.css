@@ -1,14 +1,11 @@
-.card {
-  position: relative;
-  display: block;
-  margin-bottom: 1em;
-}
-
 .content {
   position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  right: 1rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
 }
 
 .content p {
@@ -19,41 +16,81 @@ h2 {
   margin: 0;
 }
 
-.main {
-  display: flex;
+.card {
+  position: relative;
+  display: block;
+  margin-bottom: 1em;
+  width: 100%:
 }
 
-.gladstone {
-  width: 15em;
-  margin-right: 1em;
+.card:hover .content {
+  color: white;
+  background-color: black;
+  padding: 1em;
+  visibility: visible;
+  opacity: 1;
 }
 
-.gladstone img {
-  height: 23em;
-  width: 15em;
-  object-fit: cover;
+
+@media only screen and (min-width: 25em) {
+
+
+
 }
 
-.etu img {
-  height: 23em;
-  object-fit: cover;
+
+@media only screen and (min-width: 38em) {
+
+  .main {
+    display: flex;
+  }
+
+  .gladstone {
+    width: 15em;
+    margin-right: 1em;
+  }
+
+  .gladstone img {
+    height: 23em;
+    width: 15em;
+    object-fit: cover;
+  }
+
+  .etu img {
+    height: 23em;
+    object-fit: cover;
+  }
+
+  .camp {
+    width: 17em;
+  }
+
+  .camp img {
+    height: 23em;
+    width: 17em;
+    object-fit: cover;
+  }
+
+  .coffee img {
+    height: 23em;
+    object-fit: cover;
+  }
+
+  .coffee {
+    margin-right: 1em;
+  }
+
+
 }
 
-.camp {
-  width: 17em;
+@media only screen and (min-width: 60em) {
+
+
+
 }
 
-.camp img {
-  height: 23em;
-  width: 17em;
-  object-fit: cover;
-}
+@media only screen and (min-width: 90em) {
 
-.coffee img {
-  height: 23em;
-  object-fit: cover;
-}
 
-.coffee {
-  margin-right: 1em;
+
 }
