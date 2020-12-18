@@ -1,0 +1,37 @@
+.profile {
+  display: flex;
+}
+
+.profile img {
+  width: 25%;
+  height: 100%;
+  margin-right: 1em;
+}
+
+.profile-content {
+  width: 75%;
+}
+
+.profile-content h2, .profile-content h3 {
+  margin: 0;
+}
+
+.timeline {
+  display: flex;
+  margin: 3em 0 5em;
+}
+
+.point {
+  width: 33%;
+  justify-content: space-between;
+}
+
+.point h4, .point p {
+  margin: 0;
+  text-align: center;
+}
+
+.point svg {
+  margin: 0 auto;
+  display: block;
+}

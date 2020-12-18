@@ -1,0 +1,59 @@
+.card {
+  position: relative;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.content {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+}
+
+.content p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+}
+
+.gladstone {
+  width: 15em;
+  margin-right: 1em;
+}
+
+.gladstone img {
+  height: 23em;
+  width: 15em;
+  object-fit: cover;
+}
+
+.etu img {
+  height: 23em;
+  object-fit: cover;
+}
+
+.camp {
+  width: 17em;
+}
+
+.camp img {
+  height: 23em;
+  width: 17em;
+  object-fit: cover;
+}
+
+.coffee img {
+  height: 23em;
+  object-fit: cover;
+}
+
+.coffee {
+  margin-right: 1em;
+}
