@@ -97,6 +97,12 @@ a {
   margin: 0 auto;
 }
 
+.btn:hover {
+  color: black;
+  border: black 3px solid;
+  background-color: white;
+}
+
 .btn-container {
   text-align: center;
 }
